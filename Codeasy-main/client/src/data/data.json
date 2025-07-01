@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "theme": "HTML",
+    "questions": [
+      {
+        "title": "La première balise",
+        "course": "Pour créer une page web, il faut dire à l’ordinateur : \"Ce que tu vois, c’est du HTML !\" On utilise les balises <html> au début et </html> à la fin. C’est comme une grande boîte où on range tout ce qu’on veut montrer sur la page.",
+        "exercise": "Entoure le mot Bonjour avec les balises <html> et </html>.",
+        "answer": "<html>Bonjour</html>"
+      },
+      {
+        "title": "Un vrai titre !",
+        "course": "Sur une page web, un titre s’écrit avec la balise <h1>. C’est le plus gros. Si tu veux un titre un peu plus petit, tu peux utiliser <h2>, <h3>, jusqu’à <h6>. C’est comme les chapitres d’un livre.",
+        "exercise": "Écris un titre de niveau 1 qui dit Bienvenue sur mon site.",
+        "answer": "<h1>Bienvenue sur mon site</h1>"
+      },
+      {
+        "title": "Un paragraphe simple",
+        "course": "Pour écrire un petit texte, on utilise la balise <p>. C’est comme un paragraphe dans un livre. Le texte commence avec <p> et se termine avec </p>.",
+        "exercise": "Écris un paragraphe qui dit Ceci est un test.",
+        "answer": "<p>Ceci est un test.</p>"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "theme": "CSS",
+    "questions": [
+      {
+        "title": "Largeur d'un élément",
+        "course": "Tu peux donner une largeur à une boîte sur ta page avec la propriété CSS width. Par exemple, { width: 10em; } veut dire : 'fais cette boîte aussi large que 10 lettres M'.",
+        "exercise": "Donne une largeur de 10em à une div.",
+        "answer": "div { width: 10em; }"
+      },
+      {
+        "title": "Hauteur d'un élément",
+        "course": "Comme pour la largeur, tu peux aussi dire à ta boîte quelle hauteur elle doit avoir avec height. Par exemple, { height: 5em; } veut dire : 'fais-la haute comme 5 lettres M'.",
+        "exercise": "Donne une hauteur de 5em à une div.",
+        "answer": "div { height: 5em; }"
+      },
+      {
+        "title": "Cacher un élément",
+        "course": "Tu peux cacher quelque chose sur la page avec { display: none; } Il sera là, mais invisible. C’est pratique pour afficher ou cacher des choses plus tard.",
+        "exercise": "Cache tous les paragraphes avec display.",
+        "answer": "p { display: none; }"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "theme": "JavaScript",
+    "questions": [
+      {
+        "title": "Hello World !",
+        "course": "En JavaScript, on commence souvent avec console.log('Hello world!');. C’est comme dire 'Salut !' à l’ordinateur pour vérifier que tout fonctionne.",
+        "exercise": "Affiche Hello world! dans la console.",
+        "answer": "console.log(\"Hello world!\");"
+      },
+      {
+        "title": "Créer une variable",
+        "course": "Une variable, c’est comme une boîte pour garder une info. Par exemple : let nom = 'Alice'; crée une boîte nom qui contient Alice.",
+        "exercise": "Crée une variable nom qui vaut Alice.",
+        "answer": "let nom = 'Alice';"
+      },
+      {
+        "title": "Changer une valeur",
+        "course": "Si tu veux changer ce qu’il y a dans ta boîte, tu écris : nom = 'Bob';. Ça remplace Alice par Bob. Attention : pas besoin de remettre let !",
+        "exercise": "Change la variable nom en Bob.",
+        "answer": "nom = 'Bob';"
+      }
+    ]
+  }
+]

@@ -1,0 +1,215 @@
+@media screen and (max-width: 768px) {
+  .resultpage-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    img {
+      height: auto;
+      width: 50%;
+      margin-top: -184px;
+      margin-left: -10px;
+    }
+    section {
+      margin-top: 160px;
+      padding: 0rem 1.5rem 0rem 1.5rem;
+    }
+    button {
+      margin-top: 25px;
+      padding: 0.5rem 1rem;
+      border-radius: 15px;
+      width: 150px;
+      border: none;
+      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.29);
+      font-family: "Orbitron", sans-serif;
+      background-color: #586d96;
+
+      &:hover {
+        background-color: #586d96;
+        color: white;
+      }
+    }
+  }
+  .resultpage-container h1 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .resultpage-container p {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+  }
+  /* Bloc score*/
+  .scoreDisplayBloc {
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 16px;
+    border: none;
+    padding: 2px;
+    background: radial-gradient(circle 80px at 80% -10%, #ffffff, #181b1b);
+  }
+  .scoreDisplayBloc ::after {
+    content: "";
+    position: absolute;
+    width: 85%;
+    height: 60%;
+    border-radius: 80px;
+    top: 8rem;
+    right: 2rem;
+    box-shadow: 0 0 20px #ffffff38;
+    z-index: -1;
+  }
+
+  .scoreDisplay {
+    padding: 15px 25px;
+    border-radius: 14px;
+    color: #fff;
+    z-index: 3;
+    background: radial-gradient(circle 80px at 80% -50%, #777777, #0f1111);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .resultpage-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    img {
+      height: auto;
+      width: 50%;
+      margin-top: -184px;
+      margin-left: -60px;
+    }
+    section {
+      margin-top: 160px;
+      padding: 0rem 1.5rem 0rem 1.5rem;
+    }
+    button {
+      margin-top: 25px;
+      padding: 0.5rem 1rem;
+      border-radius: 15px;
+      width: 150px;
+      border: none;
+      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.29);
+      font-family: "Orbitron", sans-serif;
+      background-color: #586d96;
+
+      &:hover {
+        background-color: #586d96;
+        color: white;
+      }
+    }
+  }
+  .resultpage-container h1 {
+    padding: 0 2rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .resultpage-container p {
+    padding: 0 2rem 1.5rem 1.5rem;
+  }
+  /* Bloc score*/
+  .scoreDisplayBloc {
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 16px;
+    border: none;
+    padding: 2px;
+    width: 50%;
+  }
+  .scoreDisplayBloc ::after {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 60%;
+    border-radius: 120px;
+    top: 7rem;
+    right: 8rem;
+    box-shadow: 0 0 20px #ffffff38;
+    z-index: -1;
+  }
+
+  .scoreDisplay {
+    padding: 10px 20px;
+    border-radius: 14px;
+    color: #fff;
+    z-index: 3;
+    background: radial-gradient(circle 80px at 80% -50%, #777777, #0f1111);
+    width: 100%;
+    margin-left: 10rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .resultpage-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    img {
+      height: auto;
+      width: 25%;
+      margin-top: -45px;
+    }
+    section {
+      margin-top: 20px;
+      padding: 0rem 1.5rem 0rem 1.5rem;
+    }
+    button {
+      margin-top: 20px;
+      padding: 1rem 1rem;
+      border-radius: 15px;
+      width: 350px;
+      border: none;
+      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.29);
+      font-family: "Orbitron", sans-serif;
+      background-color: #586d96;
+      font-size: 1.5rem;
+
+      &:hover {
+        background-color: #586d96;
+        color: white;
+      }
+    }
+  }
+  .resultpage-container h1 {
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    section p {
+      font-size: 2.5rem;
+    }
+    /* Bloc score*/
+    .scoreDisplayBloc {
+      cursor: pointer;
+      font-size: 1.5rem;
+      border-radius: 16px;
+      border: none;
+      padding: 2px;
+      width: 40%;
+      padding-left: 8rem;
+    }
+    .scoreDisplayBloc ::after {
+      content: "";
+      position: absolute;
+      width: 50%;
+      height: 60%;
+      border-radius: 120px;
+      top: 12rem;
+      right: 20rem;
+      box-shadow: 0 0 20px #ffffff38;
+      z-index: -1;
+    }
+
+    .scoreDisplay {
+      padding: 10px 20px;
+      border-radius: 14px;
+      color: #fff;
+      z-index: 3;
+      background: radial-gradient(circle 80px at 80% -50%, #777777, #0f1111);
+      width: 70%;
+      margin-left: 22rem;
+    }
+  }
+}
